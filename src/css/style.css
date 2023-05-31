@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Kumbh Sans', sans-serif; 
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.container{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 350px;
+}
+
+.container .profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.container .profile .image{
+    border-radius: 50%;
+}
+
+.container .about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.about .nome{
+    font-weight: 700;
+}
+
+.about .idade{
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.about .local{
+    padding-top: 20px;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.container .info{
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color);
+    padding-top: 20px;
+    margin: 30px;
+}
+
+.info .followers .number{
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
+
+.info .likes .number{
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
+
+.info .photos .number{
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+}
