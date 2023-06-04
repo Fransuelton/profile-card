@@ -6,8 +6,7 @@ Esse exercício é uma ALTERNATIVA ao desafio [Frontend Mentor | Profile card co
 
 ## Tecnologias Utilizadas
 
-<img width="55px" height="40px" title="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-<img width="55px" height="40px" title="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+<img width="55px" height="40px" title="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><img width="55px" height="40px" title="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                  
 ## Imagens do Projeto
 
