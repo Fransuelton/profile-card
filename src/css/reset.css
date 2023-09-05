@@ -1,9 +1,14 @@
+html {
+  font-size: 62.5%;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }

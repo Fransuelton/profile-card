@@ -1,4 +1,7 @@
 :root {
-    --background-color: hsl(185, 75%, 39%);
-    --text-color: hsl(227, 10%, 46%);
+  --background-color: #1aa1ad;
+  --sub-text-color: #6b7082;
+  --card-color: #ffffff;
+  --text-color: #2e3349;
+  --colords: #969696;
 }

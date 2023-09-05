@@ -1,66 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 
-body{
-    background-color: var(--background-color);
-    height: 100vh;
-    font-size: 18px;
-    font-family: 'Kumbh Sans', sans-serif; 
+body {
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: left -340px top -400px, right -270px bottom -500px;
+  background-repeat: no-repeat, no-repeat;
+
+  background-color: var(--background-color);
 }
 
-hr{
-    width: 100%;
+.container {
+  display: grid;
+  height: 100vh;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+.card {
+  background-image: url(../images/bg-pattern-card.svg);
+  background-position: top center;
+  background-repeat: repeat-x;
+  background-color: var(--card-color);
+  place-self: center;
+  justify-self: center;
+  text-align: center;
+  width: 35rem;
+  height: 37.4rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 5rem 10rem -2rem rgba(8, 70, 94, 0.5);
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    margin: 20px;
-    width: 330px;
-    height: 350px;
+.info {
+  margin: 9.2rem 0 2.8rem 0;
 }
 
-.card .profile-informations{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10px;
-    height: 100%;
+.info .profile-photo {
+  width: 9.6rem;
+  height: 9.6rem;
+  border-radius: 9.6rem;
+  border: 0.5rem solid var(--card-color);
 }
 
-.card .profile-informations img{
-    border-radius: 50%;
-    margin-top: 20px;
+.info .name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 1.3rem;
 }
 
-.card .profile-numbers{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    padding-bottom: 30px;
-    text-align: center;
+.info .age {
+  font-weight: 400;
+  color: var(--sub-text-color);
+  margin-left: 0.85rem;
 }
 
-.profile-numbers .info .counter,
-.card .profile-informations p{
-    font-weight: 700;
+.info .city {
+  color: var(--sub-text-color);
+  font-size: 1.4rem;
 }
 
-.card .profile-informations .age,
-.card .profile-informations .city,
-.profile-numbers .info .counter-type{
-    color: var(--text-color);
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.7rem;
+  margin: 2.4rem 0 2.8rem 0;
+}
+
+ul .number {
+  font-size: 1.8rem;
+  color: var(--text-color);
+  font-weight: 700;
+  padding-bottom: 0.8rem;
+}
+
+ul .category {
+  color: var(--sub-text-color);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.15rem;
+}
+
+@media (max-width: 480px) {
+  body {
+    background-position: 0, 0;
+  }
 }

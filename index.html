@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/variables.css">
-    <link rel="stylesheet" href="src/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>Exercício HTML + CSS Avançado - Profile Card</title>
-</head>
-<body>
-    <main class="container">
-        <div class="card">
+  </head>
 
-            <div class="profile-informations">
-                <img src="./src/images/image-victor.jpg" alt="profile image">
+  <body>
+    <section class="container">
+      <article class="card">
+        <div class="info">
+          <img
+            src="./src/images/image-victor.jpg"
+            alt="Profile photo"
+            class="profile-photo"
+          />
 
-                <p>Victor Crest <span class="age">26</span></p>
-                <span class="city">London</span>
-            </div>
-            <hr>
+          <h1 class="name">Victor Crest <span class="age">26</span></h1>
+          <p class="city">London</p>
+        </div>
 
-            <ul class="profile-numbers">
-                <li class="info">
-                    <p class="counter">80K</p>
-                    <span class="counter-type">Followers</span>
-                </li>
-                <li class="info">
-                    <p class="counter">803K</p>
-                    <span class="counter-type">Likes</span>
-                </li>
-                <li class="info">
-                    <p class="counter">1.4K</p>
-                    <span class="counter-type">Photos</span>
-                </li>
-            </ul>
-    </main>
-</body>
+        <hr />
 
+        <ul>
+          <li>
+            <h2 class="number">80K</h2>
+            <p class="category">Followers</p>
+          </li>
+          <li>
+            <h2 class="number">803K</h2>
+            <p class="category">Likes</p>
+          </li>
+          <li>
+            <h2 class="number">1.4K</h2>
+            <p class="category">Photos</p>
+          </li>
+        </ul>
+      </article>
+    </section>
+  </body>
 </html>
